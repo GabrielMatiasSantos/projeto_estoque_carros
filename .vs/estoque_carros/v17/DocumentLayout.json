@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gabriel\\Documents\\Projetos\\C#\\Windows Forms\\estoque_carros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E00F267-8346-4E0C-83B8-0963F817A229}|estoque_carros\\estoque_carros.csproj|C:\\Users\\Gabriel\\Documents\\Projetos\\C#\\Windows Forms\\estoque_carros\\estoque_carros\\frmcarrosestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E00F267-8346-4E0C-83B8-0963F817A229}|estoque_carros\\estoque_carros.csproj|solutionrelative:estoque_carros\\frmcarrosestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E00F267-8346-4E0C-83B8-0963F817A229}|estoque_carros\\estoque_carros.csproj|c:\\users\\gabriel\\documents\\projetos\\c#\\windows forms\\estoque_carros\\estoque_carros\\frmcarroinseriralterardeletar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E00F267-8346-4E0C-83B8-0963F817A229}|estoque_carros\\estoque_carros.csproj|solutionrelative:estoque_carros\\frmcarroinseriralterardeletar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E00F267-8346-4E0C-83B8-0963F817A229}|estoque_carros\\estoque_carros.csproj|C:\\Users\\Gabriel\\Documents\\Projetos\\C#\\Windows Forms\\estoque_carros\\estoque_carros\\frmcarrosestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E00F267-8346-4E0C-83B8-0963F817A229}|estoque_carros\\estoque_carros.csproj|solutionrelative:estoque_carros\\frmcarrosestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmCarroInserirAlterarDeletar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Projetos\\C#\\Windows Forms\\estoque_carros\\estoque_carros\\frmCarroInserirAlterarDeletar.cs",
+              "RelativeDocumentMoniker": "estoque_carros\\frmCarroInserirAlterarDeletar.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\Projetos\\C#\\Windows Forms\\estoque_carros\\estoque_carros\\frmCarroInserirAlterarDeletar.cs [Design]",
+              "RelativeToolTip": "estoque_carros\\frmCarroInserirAlterarDeletar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T20:52:04.326Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmCarrosEstoque.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Projetos\\C#\\Windows Forms\\estoque_carros\\estoque_carros\\frmCarrosEstoque.cs",
+              "RelativeDocumentMoniker": "estoque_carros\\frmCarrosEstoque.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\Projetos\\C#\\Windows Forms\\estoque_carros\\estoque_carros\\frmCarrosEstoque.cs",
+              "RelativeToolTip": "estoque_carros\\frmCarrosEstoque.cs",
+              "ViewState": "AgIAAEMDAAAAAAAAAAAgwFwDAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T22:26:38.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmCarrosEstoque.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Projetos\\C#\\Windows Forms\\estoque_carros\\estoque_carros\\frmCarrosEstoque.cs",
+              "RelativeDocumentMoniker": "estoque_carros\\frmCarrosEstoque.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\Projetos\\C#\\Windows Forms\\estoque_carros\\estoque_carros\\frmCarrosEstoque.cs [Design]",
+              "RelativeToolTip": "estoque_carros\\frmCarrosEstoque.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T22:16:26.138Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
