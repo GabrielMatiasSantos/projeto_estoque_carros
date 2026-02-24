@@ -25,7 +25,7 @@
 3. Detalhes e desafios do projeto
 
 
-    .Para registrar um carro, foi determinado que a cor e a marca serão selecionados em um menu (combobox). Mas visto que há a possibilidade de uma cor ou marca que o usuário queira informar não estar registrada em um dos items do menu, se tomou a seguinte medida: Estas informações terão como fonte o banco de dados, e as cores e marcas mais comuns já vão vir registradas de início, porém o usuário poderá adicionar outras caso seja necessário
+    .Para registrar um carro, foi determinado que a cor e a marca serão selecionados em um menu (combobox). Mas visto que há a possibilidade de uma cor ou marca que o usuário queira informar não estar         registrada em um dos items do menu, se tomou a seguinte medida: Estas informações terão como fonte o banco de dados, e as cores e marcas mais comuns já vão vir registradas de início, porém o usuário       poderá adicionar outras caso seja necessário
 
     .Na primeira aba (Cores) o usuário pode registrar mais cores de carro caso seja necessário
 
@@ -40,13 +40,17 @@
 
       -Depois deve-se informar o modelo do veículo. Estarão disponíveis no menu os carros registrados na aba 'Modelos' que foram registrados com a marca selecionada no menu anterior
 
-      -Após isto deve-se informar os demais dados: ano (fabricação e modelo), cor, tipo de câmbio, tipo de combustível, quilometragem, final da placa, opcionais (uma série de elementos 'Checkbox'), observações, e preço
+      -Após isto deve-se informar os demais dados: ano (fabricação e modelo), cor, tipo de câmbio, tipo de combustível, quilometragem, final da placa, opcionais (uma série de elementos 'Checkbox'),              observações, e preço
 
       -Apenas os campos 'Opcionais' e 'Observações' podem ficar sem informação
 
 
 
-    .As informações sobre os opcionais de um carro são salvos de duas maneiras no banco de dados: com todos os nomes dos opcionais completos e com os nomes abreviados. Os opcionais com os nomes completos são exibidos no DatagridView e com os nomes abreviados são exibidos na impressão da tabela. Insto foi feito para que seja economizado espaço nas folhas sulfite A4, que são as mais usadas
+    .As informações sobre os opcionais de um carro são salvos de duas maneiras no banco de dados: com todos os nomes dos opcionais completos e com os nomes abreviados. Os opcionais com os nomes completos      são exibidos no DatagridView e com os nomes abreviados são exibidos na impressão da tabela. Isto foi feito para que seja economizado espaço nas folhas sulfite A4, que são as mais usadas
+
+    .Em todos os registros de todas as abas, é possível alterá-los e deletá-los. Para isto, basta fazer um duplo clique no registro no DataGridView que irá abrir outra janela que fornecerá uma opção para      alterar ou deletar o registro
+
+    .Em todas as abas é possível fazer uma busca nas informações registradas
 
     .É possível o usuário imprimir o estoque de carros. Para isto se fez uso da biblioteca 'iText'
 
@@ -81,3 +85,4 @@
     .Usar métodos assíncronos em processos que envolvam banco de dados []
 
     .Inserir a criação de arquivos de log em caso de alguma falha (catch) [] 
+
