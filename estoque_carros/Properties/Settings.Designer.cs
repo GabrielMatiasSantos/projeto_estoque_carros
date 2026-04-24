@@ -44,5 +44,16 @@ namespace estoque_carros.Properties {
                 return ((string)(this["dbEstoqueCarrosConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Infraestrutur" +
+            "a\\BancoDeDados\\dbEstoqueCarros.mdf;Integrated Security=True;Connect Timeout=30")]
+        public string dbEstoqueCarrosConnectionString1 {
+            get {
+                return ((string)(this["dbEstoqueCarrosConnectionString1"]));
+            }
+        }
     }
 }
