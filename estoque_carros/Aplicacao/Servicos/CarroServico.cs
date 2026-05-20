@@ -17,11 +17,13 @@ namespace estoque_carros.Aplicacao.Servicos
     {
         private readonly CriarConexaoInterface _criarConexao;
         private readonly CarroRepositorioInterface _carroRepositorio;
+        private readonly CriarLogServicoInterface _criarLog;
 
-        public CarroServico(CarroRepositorioInterface carroRepositorio, CriarConexaoInterface criarConexao)
+        public CarroServico(CarroRepositorioInterface carroRepositorio, CriarConexaoInterface criarConexao, CriarLogServicoInterface criarLog)
         {
             _carroRepositorio = carroRepositorio;
             _criarConexao = criarConexao;
+            _criarLog = criarLog;
         }
 
         public Resultado2 Verificar(int modelo, int marca, string ano, int cor, string cambio, string combustivel, string km, string placaFinal, string preco)
@@ -87,6 +89,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado1<List<CarroDto>>.Falha(erro);
             }
         }
@@ -108,6 +112,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado2.Falha(erro);
             }
         }
@@ -129,6 +135,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado2.Falha(erro);
             }
         }
@@ -148,6 +156,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado2.Falha(erro);
             }
         }
@@ -167,6 +177,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado2.Falha(erro);
             }
         }

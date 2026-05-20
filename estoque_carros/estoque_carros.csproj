@@ -226,7 +226,9 @@
     <Compile Include="Aplicacao\Dtos\Modelos\CorDto.cs" />
     <Compile Include="Aplicacao\Dtos\Modelos\MarcaDto.cs" />
     <Compile Include="Aplicacao\Dtos\Modelos\ModeloDto.cs" />
+    <Compile Include="Aplicacao\Servicos\CriarLogServico.cs" />
     <Compile Include="Aplicacao\Servicos\CriarPdfServico.cs" />
+    <Compile Include="Aplicacao\Servicos\Interfaces\CriarLogServicoInterface.cs" />
     <Compile Include="Aplicacao\Servicos\Interfaces\CriarPdfServicoInterface.cs" />
     <Compile Include="CamadaApresentacao\Helpers\OpcionaisValores.cs" />
     <Compile Include="Aplicacao\Servicos\CarroServico.cs" />
@@ -326,7 +328,7 @@
     <None Include="Infraestrutura\BancoDeDados\dbEstoqueCarros.xss">
       <DependentUpon>dbEstoqueCarros.xsd</DependentUpon>
     </None>
-    <None Include="CamadaApresentacao\packages.config" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

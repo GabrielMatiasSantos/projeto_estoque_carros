@@ -29,6 +29,7 @@ namespace estoque_carros
 
             StringConexaoInterface stringConexao = new StringConexaoServico();
             CriarConexaoInterface criarConexao = new CriarConexao(stringConexao);
+            CriarLogServicoInterface criarLog = new CriarLogServico();
             
 
             CorRepositorioInterface corRepositorio = new CorRepositorio();
@@ -39,11 +40,11 @@ namespace estoque_carros
             
             AbrirFormularioInterface formulario = new AbrirFormulárioServico();
 
-            CorServicoInterface corServico = new CorServico(corRepositorio, criarConexao);
-            MarcaServicoInterface marcaServico = new MarcaServico(marcaRepositorio, criarConexao);
-            ModeloServicoInterface modeloServico = new ModeloServico(modeloRepositorio, criarConexao);
-            CarroServicoInterface carroServico = new CarroServico(carroRepositorio, criarConexao);
-            CriarPdfServicoInterface criarPdfServico = new CriarPdfServico(carroRepositorio, criarConexao);
+            CorServicoInterface corServico = new CorServico(corRepositorio, criarConexao, criarLog);
+            MarcaServicoInterface marcaServico = new MarcaServico(marcaRepositorio, criarConexao, criarLog);
+            ModeloServicoInterface modeloServico = new ModeloServico(modeloRepositorio, criarConexao, criarLog);
+            CarroServicoInterface carroServico = new CarroServico(carroRepositorio, criarConexao, criarLog);
+            CriarPdfServicoInterface criarPdfServico = new CriarPdfServico(carroRepositorio, criarConexao, criarLog);
             
             Application.Run(new frmCarrosEstoque(formulario, corServico, marcaServico, modeloServico, carroServico, criarPdfServico));                            
         }

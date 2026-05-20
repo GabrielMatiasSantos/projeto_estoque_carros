@@ -18,11 +18,13 @@ namespace estoque_carros.Aplicacao.Servicos
     {
         private readonly MarcaRepositorioInterface _marcaRepositorio;
         private readonly CriarConexaoInterface _criarConexao;
+        private readonly CriarLogServicoInterface _criarLog;
 
-        public MarcaServico(MarcaRepositorioInterface marcaRepositorio, CriarConexaoInterface criarConexao)
+        public MarcaServico(MarcaRepositorioInterface marcaRepositorio, CriarConexaoInterface criarConexao, CriarLogServicoInterface criarLog)
         {
             _marcaRepositorio = marcaRepositorio;
             _criarConexao = criarConexao;
+            _criarLog = criarLog;
         }
 
         public Resultado2 Verificar(string texto)
@@ -52,7 +54,9 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
-                return Resultado1<List<MarcaDto>>.Falha(erro.Message);
+                _criarLog.CriarLog(erro);
+
+                return Resultado1<List<MarcaDto>>.Falha(erro);
             }
         }
 
@@ -71,7 +75,9 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
-                return Resultado1<List<MarcaDto>>.Falha(erro.Message);
+                _criarLog.CriarLog(erro);
+
+                return Resultado1<List<MarcaDto>>.Falha(erro);
             }
         }
 
@@ -99,7 +105,9 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
-                return Resultado2.Falha(erro.Message);
+                _criarLog.CriarLog(erro);
+
+                return Resultado2.Falha(erro);
             }           
         }
 
@@ -128,6 +136,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado2.Falha(erro.Message);
             }
         }
@@ -153,11 +163,15 @@ namespace estoque_carros.Aplicacao.Servicos
                 }
                 else
                 {
+                    _criarLog.CriarLog(erro);
+
                     return Resultado2.Falha(erro);
                 }
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado2.Falha(erro.Message);
             }
         }

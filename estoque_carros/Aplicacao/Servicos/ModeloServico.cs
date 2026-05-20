@@ -22,11 +22,13 @@ namespace estoque_carros.Aplicacao.Servicos
     {
         private readonly ModeloRepositorioInterface _modeloRepositorio;
         private readonly CriarConexaoInterface _criarConexao;
+        private readonly CriarLogServicoInterface _criarLog;
 
-        public ModeloServico(ModeloRepositorioInterface modeloRepositorio, CriarConexaoInterface criarConexao)
+        public ModeloServico(ModeloRepositorioInterface modeloRepositorio, CriarConexaoInterface criarConexao, CriarLogServicoInterface criarLog)
         {
             _modeloRepositorio = modeloRepositorio;
             _criarConexao = criarConexao;
+            _criarLog = criarLog;
         }
 
         public Resultado2 Verificar(int marca, string modelo, string portas, string motor)
@@ -115,6 +117,8 @@ namespace estoque_carros.Aplicacao.Servicos
            }
            catch (Exception erro)
            {
+                _criarLog.CriarLog(erro);
+
                 return Resultado1<List<ModeloDto>>.Falha(erro);
            }
         }
@@ -134,6 +138,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado1<List<ModeloDto>>.Falha(erro);
             }
         }
@@ -153,6 +159,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch(Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado1<List<ModeloDto>>.Falha(erro);
             }
         }
@@ -192,6 +200,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado2.Falha(erro);
             }
         }
@@ -231,6 +241,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado2.Falha(erro);
             }
         }
@@ -256,11 +268,15 @@ namespace estoque_carros.Aplicacao.Servicos
                 }
                 else
                 {
+                    _criarLog.CriarLog(erro);
+
                     return Resultado2.Falha(erro);
                 }
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado2.Falha(erro);
             }
         }

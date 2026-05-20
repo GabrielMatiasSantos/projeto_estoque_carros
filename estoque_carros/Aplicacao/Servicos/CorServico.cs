@@ -18,11 +18,13 @@ namespace estoque_carros.Aplicacao.Servicos
     {
         private readonly CorRepositorioInterface _corRepositorio;
         private readonly CriarConexaoInterface _criarConexao;
+        private readonly CriarLogServicoInterface _criarLog;
 
-        public CorServico(CorRepositorioInterface corRepositorio, CriarConexaoInterface criarConexao)
+        public CorServico(CorRepositorioInterface corRepositorio, CriarConexaoInterface criarConexao, CriarLogServicoInterface criarLog)
         {
             _corRepositorio = corRepositorio;
             _criarConexao = criarConexao;
+            _criarLog = criarLog;
         }
 
 
@@ -53,6 +55,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado1<List<CorDto>>.Falha(erro);
             }
         }
@@ -73,6 +77,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado1<List<CorDto>>.Falha(erro);
             }           
         }
@@ -101,6 +107,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado2.Falha(erro);
             }           
         }
@@ -129,6 +137,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado2.Falha(erro);
             }            
         }
@@ -155,12 +165,16 @@ namespace estoque_carros.Aplicacao.Servicos
                 }
                 else
                 {
+                    _criarLog.CriarLog(erro);
+
                     return Resultado2.Falha(erro);
                 }
             }
             catch (Exception erro)
-            {              
-               return Resultado2.Falha(erro);                                 
+            {
+                _criarLog.CriarLog(erro);
+
+                return Resultado2.Falha(erro);                                 
             }
         }
     }   

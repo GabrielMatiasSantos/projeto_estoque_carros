@@ -22,11 +22,13 @@ namespace estoque_carros.Aplicacao.Servicos
     {
         private readonly CriarConexaoInterface _criarConexao;
         private readonly CarroRepositorioInterface _carroRepositorio;
+        private readonly CriarLogServicoInterface _criarLog;
 
-        public CriarPdfServico(CarroRepositorioInterface carroRepositorio, CriarConexaoInterface criarConexao)
+        public CriarPdfServico(CarroRepositorioInterface carroRepositorio, CriarConexaoInterface criarConexao, CriarLogServicoInterface criarLog)
         {
             _carroRepositorio = carroRepositorio;
             _criarConexao = criarConexao;
+            _criarLog = criarLog;
         }
 
         public async Task<Resultado2> EstoqueImprimir()
@@ -194,6 +196,8 @@ namespace estoque_carros.Aplicacao.Servicos
             }
             catch (Exception erro)
             {
+                _criarLog.CriarLog(erro);
+
                 return Resultado2.Falha(erro);
             }
         }

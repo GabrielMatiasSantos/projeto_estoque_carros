@@ -38,7 +38,7 @@ namespace estoque_carros.Dominio.Resultados
 
         public static Resultado2 Falha(Exception erro)
         {
-            return new Resultado2(false, true, erro.Message);
+            return new Resultado2(false, true, "Ocorreu um problema na execução da solicitação. Verifique o log de erro para mais detalhes");
         }
     }
 }
