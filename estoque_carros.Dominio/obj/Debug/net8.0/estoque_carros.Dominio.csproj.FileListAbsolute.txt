@@ -1,0 +1,12 @@
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Dominio\bin\Debug\net8.0\estoque_carros.Dominio.deps.json
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Dominio\bin\Debug\net8.0\estoque_carros.Dominio.dll
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Dominio\bin\Debug\net8.0\estoque_carros.Dominio.pdb
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Dominio\obj\Debug\net8.0\estoque_carros.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Dominio\obj\Debug\net8.0\estoque_carros.Dominio.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Dominio\obj\Debug\net8.0\estoque_carros.Dominio.AssemblyInfo.cs
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Dominio\obj\Debug\net8.0\estoque_carros.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Dominio\obj\Debug\net8.0\estoque_carros.Dominio.sourcelink.json
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Dominio\obj\Debug\net8.0\estoque_carros.Dominio.dll
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Dominio\obj\Debug\net8.0\refint\estoque_carros.Dominio.dll
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Dominio\obj\Debug\net8.0\estoque_carros.Dominio.pdb
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Dominio\obj\Debug\net8.0\ref\estoque_carros.Dominio.dll

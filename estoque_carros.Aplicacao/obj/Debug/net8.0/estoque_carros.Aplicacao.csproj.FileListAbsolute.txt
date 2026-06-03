@@ -1,0 +1,16 @@
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\bin\Debug\net8.0\estoque_carros.Aplicacao.deps.json
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\bin\Debug\net8.0\estoque_carros.Aplicacao.dll
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\bin\Debug\net8.0\estoque_carros.Aplicacao.pdb
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\bin\Debug\net8.0\estoque_carros.Dominio.dll
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\bin\Debug\net8.0\estoque_carros.Dominio.pdb
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\obj\Debug\net8.0\estoque_carros.Aplicacao.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\obj\Debug\net8.0\estoque_carros.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\obj\Debug\net8.0\estoque_carros.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\obj\Debug\net8.0\estoque_carros.Aplicacao.AssemblyInfo.cs
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\obj\Debug\net8.0\estoque_carros.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\obj\Debug\net8.0\estoque_carros.Aplicacao.sourcelink.json
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\obj\Debug\net8.0\estoque_.67E32487.Up2Date
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\obj\Debug\net8.0\estoque_carros.Aplicacao.dll
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\obj\Debug\net8.0\refint\estoque_carros.Aplicacao.dll
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\obj\Debug\net8.0\estoque_carros.Aplicacao.pdb
+C:\Users\Gabriel\Documents\Projetos\C#\Windows Forms\estoque_carros\estoque_carros.Aplicacao\obj\Debug\net8.0\ref\estoque_carros.Aplicacao.dll

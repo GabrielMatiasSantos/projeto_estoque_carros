@@ -1,9 +1,14 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "estoque_carros", "estoque_carros\estoque_carros.csproj", "{9E00F267-8346-4E0C-83B8-0963F817A229}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "estoque_carros.Apresentacao", "estoque_carros.Apresentacao\estoque_carros.Apresentacao.csproj", "{37A5467E-6741-4487-BC60-FAD160A0B6CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "estoque_carros.Infraestrutura", "estoque_carros.Infraestrutura\estoque_carros.Infraestrutura.csproj", "{499D2388-15EC-4D9C-9F0E-5E5F5577F17E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "estoque_carros.Aplicacao", "estoque_carros.Aplicacao\estoque_carros.Aplicacao.csproj", "{C4706880-8D70-485C-816D-14954EAC9C3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "estoque_carros.Dominio", "estoque_carros.Dominio\estoque_carros.Dominio.csproj", "{C927CCB5-8061-4FE6-ABF4-AD9FB6369905}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +16,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9E00F267-8346-4E0C-83B8-0963F817A229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E00F267-8346-4E0C-83B8-0963F817A229}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E00F267-8346-4E0C-83B8-0963F817A229}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E00F267-8346-4E0C-83B8-0963F817A229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37A5467E-6741-4487-BC60-FAD160A0B6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A5467E-6741-4487-BC60-FAD160A0B6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A5467E-6741-4487-BC60-FAD160A0B6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A5467E-6741-4487-BC60-FAD160A0B6CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499D2388-15EC-4D9C-9F0E-5E5F5577F17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499D2388-15EC-4D9C-9F0E-5E5F5577F17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499D2388-15EC-4D9C-9F0E-5E5F5577F17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499D2388-15EC-4D9C-9F0E-5E5F5577F17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4706880-8D70-485C-816D-14954EAC9C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4706880-8D70-485C-816D-14954EAC9C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4706880-8D70-485C-816D-14954EAC9C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4706880-8D70-485C-816D-14954EAC9C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C927CCB5-8061-4FE6-ABF4-AD9FB6369905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C927CCB5-8061-4FE6-ABF4-AD9FB6369905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C927CCB5-8061-4FE6-ABF4-AD9FB6369905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C927CCB5-8061-4FE6-ABF4-AD9FB6369905}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
