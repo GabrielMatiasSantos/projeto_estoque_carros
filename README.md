@@ -101,7 +101,17 @@
 
     .Usar métodos assíncronos em processos que envolvam banco de dados [x] (refactor: aplicação de repositórios e serviços)
 
-    Outros detalhes do commit: Foi aplicado os princípios da arquitetura limpa e desacoplada. Por exemplo, nos repositórios se fez uso de classes de banco     de dados genéricas (DbConnection, DbCommand), sendo que referências ao SQL só existem na classe que fornece o objeto com a informação do banco de          dados. Outro exemplo foi usar uma classe de serviço para intermediar o contato entre as classes de formulário, ou seja, nenhum formulário faz              referência direta a outro formulário. Os eventos dos formulários só contém métodos declarados em Helpers ou em uma partição das classes dos                formulários (partial class)
+    -Outros detalhes do commit: Foi aplicado os princípios da arquitetura limpa e desacoplada. Por exemplo, nos repositórios se fez uso de classes de          banco de dados genéricas (DbConnection, DbCommand), sendo que referências ao SQL só existem na classe que fornece o objeto de conexão com o banco de       dados (classe fábrica de conexão). Outro exemplo foi usar uma classe para intermediar o contato entre as classes de formulário, ou seja, nenhum            formulário faz referência direta a outro formulário. Os eventos dos formulários só contém métodos declarados em Helpers ou em uma partição das classes     dos formulários (partial class)
 
-    .Inserir a criação de arquivos de log em caso de alguma falha (catch) [x] (feat: criação de arquivos de logs de erros)  
+    .Inserir a criação de arquivos de log em caso de alguma falha (catch) [x] (feat: criação de arquivos de logs de erros)
+
+
+   .Commit 'refactor: arquitetura limpa'
+
+
+   -Foi feito ajustes na estrutura do código de acordo com a arquitetura limpa. Foram feitas correções de inconsistências (dependências que contrariavam o    modelo de arquitetura) e cada camada corresponde a um subprojeto (previamente as camadas eram apenas pastas)
+
+   -O projeto foi atualizado para .NET Framework 8.0 (previamente era 4.7.2)
+
+   
 
